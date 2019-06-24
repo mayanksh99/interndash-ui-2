@@ -1,0 +1,102 @@
+body {
+    overflow-x: hidden!important;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav {
+    background: #65B3ED;
+}
+
+.nav-link {
+    font-weight: 900;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #ffffff
+}
+
+.poster {
+    background: linear-gradient(37.6deg, rgba(101, 179, 237, 0.5) 31.28%, rgba(255, 255, 255, 0) 71.73%), url(../images/beautiful-blur-casual-935756.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.poster-line {
+    top: 100px;
+    font-weight: 800;
+    font-size: 65px;
+    color: #FFFFFF;
+    padding-top: 420px;
+    padding-bottom: 40px;
+}
+
+.our-section {
+    margin-top: 60px;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 50px;
+    color: #65B3ED;
+    padding-top: 70px;
+}
+
+.title-text {
+    font-weight: bold;
+    font-size: 23px;
+    color: #444444;
+}
+
+.middle {
+    background: #65B3ED;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.learn-section {
+    margin-bottom: 80px;
+}
+
+.card {
+    box-shadow: 0px 4px 16px #D0CDE1;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.features-field {
+    font-weight: 900;
+    font-size: 30px;
+    color: #444444;
+}
+
+.field-detail {
+    font-weight: 800;
+    font-size: 22px;
+    color: #707070;
+    margin: auto;
+}
+
+.quote {
+    font-family: 'Sanchez', serif;
+    font-size: 38px;
+    color: #444444;
+    margin-bottom: 50px;
+}
+
+.card-text {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+footer {
+    font-weight: 900;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px;
+    background: #707070;
+}
