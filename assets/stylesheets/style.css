@@ -1,6 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo&display=swap');
+
+@font-face {
+    font-family: Gotham Rounded Bold;
+    src: url(../../assets/fonts/Gotham\ Rounded\ Bold.otf);
+}
+
 body {
-    overflow-x: hidden!important;
-    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden !important;
+    font-family: 'Gotham Rounded Bold';
 }
 
 nav {
@@ -8,8 +16,8 @@ nav {
 }
 
 .nav-link {
-    font-weight: 900;
-    font-size: 24px;
+    /* font-weight: 900; */
+    font-size: 16px;
     color: #ffffff;
 }
 
@@ -22,15 +30,19 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 92vh;
 }
 
 .poster-line {
-    top: 100px;
-    font-weight: 800;
-    font-size: 65px;
+    top: 200px;
+    /* font-weight: 700; */
     color: #FFFFFF;
-    padding-top: 420px;
-    padding-bottom: 40px;
+}
+
+.poster-line h2 {
+    top: 200;
+    padding-top: 300px;
+    font-size: 48px;
 }
 
 .our-section {
@@ -38,16 +50,15 @@ nav {
 }
 
 .title {
-    font-weight: 800;
-    font-size: 50px;
+    /* font-weight: 600; */
+    font-size: 40px;
     color: #65B3ED;
-    padding-top: 70px;
+    padding-top: 60px;
 }
 
 .title-text {
-    font-weight: bold;
-    font-size: 23px;
-    color: #444444;
+    font-size: 20px;
+    color: #707070;
 }
 
 .middle {
@@ -61,42 +72,53 @@ nav {
 }
 
 .card {
-    box-shadow: 0px 4px 16px #D0CDE1;
+    border: 0;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     border-radius: 8px;
     padding: 20px;
 }
 
 .features-field {
-    font-weight: 900;
+    /* font-weight: 900; */
     font-size: 30px;
     color: #444444;
 }
 
 .field-detail {
-    font-weight: 800;
+    /* font-weight: 800; */
     font-size: 22px;
     color: #707070;
     margin: auto;
 }
 
 .quote {
-    font-family: 'Sanchez', serif;
-    font-size: 38px;
+    font-family: 'Swanky and Moo Moo';
+    font-size: 24px;
     color: #444444;
-    margin-bottom: 50px;
 }
 
 .card-text {
-    margin: 10px;
-    font-weight: bold;
-    font-size: 16px;
+    padding: 0; margin: 0;
+    font-family: 'Swanky and Moo Moo';
+    font-size: 20px;
     color: #ffffff;
 }
 
 footer {
-    font-weight: 900;
+    /* font-weight: 900; */
     color: #fff;
     font-size: 14px;
     padding: 8px;
     background: #707070;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa-bars{
+    color: #fff;
 }
